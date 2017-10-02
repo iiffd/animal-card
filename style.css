@@ -1,0 +1,20 @@
+#card-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  padding: 15px;
+  width: 500px;
+  box-shadow: 10px 10px 5px #d3d3d3
+}
+
+#card-list-info {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #card-border {
+    width: 100%;
+  }
+}
